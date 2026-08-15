@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Courses from "./components/Courses";
 import Roadmap from "./components/Roadmap";
 import Mentorship from "./components/Mentorship";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
   <Roadmap />
   <Mentorship />
 </main>
+<Footer />
     </div>
   );
 }
