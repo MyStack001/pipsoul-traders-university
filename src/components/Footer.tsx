@@ -23,16 +23,27 @@ function Footer() {
       <div className="mx-auto max-w-7xl py-16 sm:py-20">
         <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
           {/* Brand */}
-          <div className="max-w-sm">
-            <a href="#" className="inline-block">
-              <p className="text-lg font-bold tracking-tight text-white">
-                Pipsoul Traders University
-              </p>
+<div className="max-w-sm">
+  <a
+    href="#"
+    className="group inline-flex items-center gap-3"
+  >
+    <img
+      src="/Logo.png"
+      alt="Pipsoul"
+      className="h-11 w-11 object-contain"
+    />
 
-              <p className="mt-1 text-xs text-slate-500">
-                Learn. Trade. Grow.
-              </p>
-            </a>
+    <div>
+      <p className="text-lg font-bold leading-tight tracking-tight text-white">
+        Pipsoul Traders University
+      </p>
+
+      <p className="mt-0.5 text-xs text-slate-500 transition group-hover:text-slate-400">
+        Learn. Trade. Grow.
+      </p>
+    </div>
+  </a>
 
             <p className="mt-6 text-sm leading-6 text-slate-500">
               A structured learning platform designed to help you understand

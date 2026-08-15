@@ -14,14 +14,22 @@ function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         {/* Brand */}
-        <a href="#" className="group">
-          <p className="text-lg font-bold tracking-tight text-white">
-            Pipsoul Traders University
-          </p>
+        <a href="#" className="group flex items-center gap-3">
+          <img
+            src="/Logo.png"
+            alt="Pipsoul"
+            className="h-10 w-10 object-contain"
+          />
 
-          <p className="text-xs text-slate-500 transition group-hover:text-slate-400">
-            Learn. Trade. Grow.
-          </p>
+          <div>
+            <p className="text-lg font-bold leading-tight tracking-tight text-white">
+              Pipsoul Traders University
+            </p>
+
+            <p className="mt-0.5 text-xs text-slate-500 transition group-hover:text-slate-400">
+              Learn. Trade. Grow.
+            </p>
+          </div>
         </a>
 
         {/* Desktop Navigation */}
