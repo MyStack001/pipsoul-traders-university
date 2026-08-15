@@ -53,12 +53,16 @@ function Hero() {
             </a>
           </div>
 
-          <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-500">
-            <span>Forex</span>
-            <span>Crypto</span>
-            <span>Stocks</span>
-            <span>Finance</span>
-          </div>
+         <div className="mt-10 flex flex-wrap gap-2.5">
+  {["Forex", "Crypto", "Stocks", "Finance"].map((market) => (
+    <span
+      key={market}
+      className="rounded-full border border-white/10 bg-white/[0.03] px-3.5 py-1.5 text-xs font-medium text-slate-500 transition hover:border-white/20 hover:bg-white/5 hover:text-slate-300"
+    >
+      {market}
+    </span>
+  ))}
+</div>
         </motion.div>
 
         {/* Right visual */}
