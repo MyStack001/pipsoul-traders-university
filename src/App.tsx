@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Courses from "./components/Courses";
+import Roadmap from "./components/Roadmap";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
      <main className="pt-20">
   <Hero />
   <Courses />
+  <Roadmap />
 </main>
     </div>
   );
