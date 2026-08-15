@@ -71,7 +71,7 @@ function Hero() {
           <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-3 shadow-2xl backdrop-blur-xl">
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-slate-900">
               <img
-                src="/trading-hero.jpg"
+                src="/trading-hero.png"
                 alt="Financial market trading"
                 className="h-full w-full object-cover opacity-80"
               />
