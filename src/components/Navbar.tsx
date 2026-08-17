@@ -12,17 +12,17 @@ function Navbar() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
-      <div className="mx-auto grid h-20 max-w-7xl grid-cols-[1fr_auto_1fr] items-center px-6">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6">
         {/* Brand */}
-        <a href="#" className="group flex items-center gap-3">
+        <a href="#" className="group flex min-w-0 items-center gap-2 sm:gap-3">
           <img
             src="/Logo.png"
             alt="Pipsoul"
-            className="h-10 w-10 object-contain"
+            className="h-8 w-8 shrink-0 object-contain sm:h-10 sm:w-10"
           />
 
           <div>
-            <p className="text-lg font-bold leading-tight tracking-tight text-white">
+            <p className="whitespace-nowrap text-sm font-bold leading-tight tracking-tight text-white sm:text-lg">
               Pipsoul Traders University
             </p>
 
