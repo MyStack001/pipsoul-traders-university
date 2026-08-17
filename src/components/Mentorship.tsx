@@ -17,7 +17,7 @@ function Mentorship() {
   return (
     <section
       id="mentorship"
-      className="relative overflow-hidden bg-slate-950 px-6 py-24 sm:py-32"
+      className="relative overflow-hidden bg-slate-950 px-4 py-20 sm:px-6 sm:py-24 lg:py-32"
     >
       <div className="pointer-events-none absolute left-0 top-1/2 h-[500px] w-[500px] -translate-y-1/2 rounded-full bg-emerald-500/[0.04] blur-3xl" />
 
@@ -30,7 +30,7 @@ function Mentorship() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.25 }}
               transition={{ duration: 0.6 }}
-              className="p-8 sm:p-12 lg:p-16"
+              className="p-6 sm:p-12 lg:p-16"
             >
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-white/10 bg-white/5 text-emerald-400">
                 <Users size={24} />
