@@ -45,7 +45,7 @@ function Courses() {
   return (
     <section
       id="courses"
-      className="relative overflow-hidden bg-slate-950 px-6 py-24 sm:py-32"
+      className="relative overflow-hidden bg-slate-950 px-4 py-20 sm:px-6 sm:py-24 lg:py-32"
     >
       <div className="pointer-events-none absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-500/[0.04] blur-3xl" />
 
