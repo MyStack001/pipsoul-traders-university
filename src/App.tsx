@@ -9,12 +9,15 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/courses" element={<CoursesPage />} />
+
         <Route path="/courses/:courseId" element={<CoursePage />} />
+
         <Route
-  path="/courses/:courseId/lessons/:lessonId"
-  element={<LessonPage />}
-/>
+          path="/courses/:courseId/lessons/:lessonId"
+          element={<LessonPage />}
+        />
       </Routes>
     </BrowserRouter>
   );
