@@ -3,6 +3,7 @@ import CourseCard from "../components/CourseCard";
 type CourseLevel = "Beginner" | "Intermediate" | "Advanced";
 
 type Course = {
+  courseId: string;
   category: string;
   title: string;
   description: string;
@@ -13,6 +14,7 @@ type Course = {
 
 const courses: Course[] = [
   {
+    courseId: "forex",
     category: "Forex",
     title: "Forex Trading Fundamentals",
     description:
@@ -22,6 +24,7 @@ const courses: Course[] = [
     icon: "💱",
   },
   {
+    courseId: "crypto",
     category: "Crypto",
     title: "Crypto Trading Fundamentals",
     description:
@@ -31,6 +34,7 @@ const courses: Course[] = [
     icon: "₿",
   },
   {
+    courseId: "stocks",
     category: "Stocks",
     title: "Stock Market Fundamentals",
     description:
@@ -40,6 +44,7 @@ const courses: Course[] = [
     icon: "📈",
   },
   {
+    courseId: "finance",
     category: "Finance",
     title: "Understanding Financial Markets",
     description:

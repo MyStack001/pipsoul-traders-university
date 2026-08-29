@@ -8,6 +8,7 @@ import CourseCard from "./CourseCard";
 
 const courses = [
   {
+    courseId: "forex",
     title: "Forex Trading",
     description:
       "Understand currency markets, market structure, technical analysis, risk management, and the foundations of disciplined Forex trading.",
@@ -16,6 +17,7 @@ const courses = [
     icon: <LineChart size={23} />,
   },
   {
+    courseId: "crypto",
     title: "Crypto Trading",
     description:
       "Learn how crypto markets work, analyze volatility, read price action, and develop a structured approach to digital assets.",
@@ -24,6 +26,7 @@ const courses = [
     icon: <Bitcoin size={23} />,
   },
   {
+    courseId: "stocks",
     title: "Stock Market",
     description:
       "Explore stocks, company fundamentals, technical analysis, market cycles, and the principles behind smarter equity decisions.",
@@ -32,6 +35,7 @@ const courses = [
     icon: <BarChart3 size={23} />,
   },
   {
+    courseId: "finance",
     title: "Financial Markets",
     description:
       "Build a broader understanding of financial markets, economics, trading psychology, money management, and risk.",
@@ -71,6 +75,7 @@ function Courses() {
           {courses.map((course) => (
             <CourseCard
               key={course.title}
+              courseId={course.courseId}
               title={course.title}
               description={course.description}
               lessons={course.lessons}
