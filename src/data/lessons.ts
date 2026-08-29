@@ -1036,4 +1036,497 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  // ============================================================
+  // STOCKS — 11 LESSONS
+  // ============================================================
+
+  {
+    id: "introduction-to-stocks",
+    courseId: "stocks",
+    title: "Introduction to Stocks",
+    description:
+      "Understand what stocks represent and how the stock market works.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "A stock represents an ownership interest in a company. When you purchase shares of a company, you become a shareholder and participate in the economic value of that business.",
+      },
+      {
+        type: "heading",
+        text: "What is a Stock?",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Companies can issue shares to raise capital. Investors can buy and sell those shares through financial markets.",
+      },
+      {
+        type: "heading",
+        text: "Why Do Stock Prices Move?",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Stock prices can change because of company performance, earnings expectations, economic conditions, interest rates, investor sentiment, and changes in supply and demand.",
+      },
+      {
+        type: "heading",
+        text: "Stocks vs. Companies",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Owning shares does not mean you directly control every decision made by a company. The rights attached to shares depend on the type of stock and the company's structure.",
+      },
+    ],
+  },
+
+  {
+    id: "how-stock-markets-work",
+    courseId: "stocks",
+    title: "How Stock Markets Work",
+    description:
+      "Learn about exchanges, buyers, sellers, and market participants.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Stock markets provide systems through which buyers and sellers can trade shares of publicly listed companies.",
+      },
+      {
+        type: "heading",
+        text: "Stock Exchanges",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Stock exchanges provide organized marketplaces and infrastructure for trading securities.",
+      },
+      {
+        type: "heading",
+        text: "Market Participants",
+      },
+      {
+        type: "list",
+        items: [
+          "Individual investors",
+          "Institutional investors",
+          "Banks and financial institutions",
+          "Market makers",
+          "Companies",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Buyers and Sellers",
+      },
+      {
+        type: "paragraph",
+        text:
+          "A transaction occurs when buyers and sellers agree on a price through the market's trading system.",
+      },
+    ],
+  },
+
+  {
+    id: "reading-stock-charts",
+    courseId: "stocks",
+    title: "Reading Stock Charts",
+    description:
+      "Learn the fundamentals of interpreting price charts.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Stock charts provide a visual representation of how a company's share price has changed over time.",
+      },
+      {
+        type: "heading",
+        text: "Candlestick Charts",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Candlesticks show the opening, closing, high, and low prices for a selected period.",
+      },
+      {
+        type: "heading",
+        text: "Timeframes",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Charts can be viewed across different timeframes. A daily chart, for example, shows each trading day's price behaviour.",
+      },
+      {
+        type: "heading",
+        text: "Volume",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Trading volume represents the number of shares traded during a particular period and can provide additional context about market activity.",
+      },
+    ],
+  },
+
+  {
+    id: "market-trends-and-structure",
+    courseId: "stocks",
+    title: "Market Trends & Structure",
+    description:
+      "Understand trends, swings, and changing market conditions.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Market structure helps traders understand how price is behaving over time by examining highs, lows, trends, and consolidation periods.",
+      },
+      {
+        type: "heading",
+        text: "Uptrends",
+      },
+      {
+        type: "paragraph",
+        text:
+          "An uptrend generally develops through a sequence of higher highs and higher lows.",
+      },
+      {
+        type: "heading",
+        text: "Downtrends",
+      },
+      {
+        type: "paragraph",
+        text:
+          "A downtrend generally develops through lower highs and lower lows.",
+      },
+      {
+        type: "heading",
+        text: "Ranges",
+      },
+      {
+        type: "paragraph",
+        text:
+          "A ranging market moves within a relatively defined area without establishing a sustained directional trend.",
+      },
+      {
+        type: "list",
+        items: [
+          "Higher highs",
+          "Higher lows",
+          "Lower highs",
+          "Lower lows",
+          "Consolidation",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "fundamental-analysis",
+    courseId: "stocks",
+    title: "Fundamental Analysis",
+    description:
+      "Learn the basics of evaluating companies and their financial health.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Fundamental analysis focuses on understanding a company's financial condition, business model, competitive position, and future prospects.",
+      },
+      {
+        type: "heading",
+        text: "Financial Statements",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Investors commonly examine financial statements such as the income statement, balance sheet, and cash flow statement.",
+      },
+      {
+        type: "heading",
+        text: "Revenue and Profit",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Revenue measures money generated by a business, while profit represents what remains after relevant expenses are accounted for.",
+      },
+      {
+        type: "heading",
+        text: "Valuation",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Valuation attempts to determine whether a company's share price appears reasonable relative to its financial performance and future expectations.",
+      },
+    ],
+  },
+
+  {
+    id: "technical-analysis",
+    courseId: "stocks",
+    title: "Technical Analysis",
+    description:
+      "Explore the foundations of technical analysis and price action.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Technical analysis studies historical price and market data to identify trends, patterns, levels, and potential areas of interest.",
+      },
+      {
+        type: "heading",
+        text: "Price Action",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Price action focuses on the movement and behaviour of price rather than relying solely on external fundamental information.",
+      },
+      {
+        type: "heading",
+        text: "Support and Resistance",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Support and resistance are areas where price has previously reacted or where traders may expect increased buying or selling activity.",
+      },
+      {
+        type: "list",
+        items: [
+          "Trends",
+          "Support and resistance",
+          "Breakouts",
+          "Chart patterns",
+          "Market structure",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "risk-management",
+    courseId: "stocks",
+    title: "Risk Management",
+    description:
+      "Understand how to manage risk when trading or investing in stocks.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Risk management involves controlling how much capital is exposed to potential loss.",
+      },
+      {
+        type: "heading",
+        text: "Position Size",
+      },
+      {
+        type: "paragraph",
+        text:
+          "The amount invested or traded should be appropriate for the account size, strategy, and level of risk being accepted.",
+      },
+      {
+        type: "heading",
+        text: "Diversification",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Diversification involves spreading exposure across different assets or sectors to reduce dependence on a single investment.",
+      },
+      {
+        type: "list",
+        items: [
+          "Define acceptable risk.",
+          "Avoid excessive concentration.",
+          "Use appropriate position sizes.",
+          "Understand the risks of the individual stock.",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "portfolio-basics",
+    courseId: "stocks",
+    title: "Portfolio Basics",
+    description:
+      "Learn how diversification and allocation can influence portfolio risk.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "A portfolio is a collection of investments held by an individual or organization. Portfolio construction involves deciding how capital should be distributed across different assets.",
+      },
+      {
+        type: "heading",
+        text: "Asset Allocation",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Asset allocation refers to how investments are distributed among different asset classes and investments.",
+      },
+      {
+        type: "heading",
+        text: "Diversification",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Diversification can reduce the impact of poor performance from a single investment, although it cannot eliminate investment risk.",
+      },
+      {
+        type: "heading",
+        text: "Risk and Return",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Different investments have different risk and return characteristics. Portfolio decisions should reflect an investor's objectives and tolerance for risk.",
+      },
+    ],
+  },
+
+  {
+    id: "trading-psychology",
+    courseId: "stocks",
+    title: "Trading Psychology",
+    description:
+      "Develop the discipline required to make better market decisions.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Psychology can strongly influence financial decisions. Fear, greed, impatience, and overconfidence can cause investors and traders to abandon their processes.",
+      },
+      {
+        type: "heading",
+        text: "Common Emotional Challenges",
+      },
+      {
+        type: "list",
+        items: [
+          "Fear of losses",
+          "Fear of missing out",
+          "Overconfidence",
+          "Impatience",
+          "Panic selling",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The Importance of Discipline",
+      },
+      {
+        type: "paragraph",
+        text:
+          "A disciplined approach means following a predefined process instead of allowing short-term market movements to control every decision.",
+      },
+    ],
+  },
+
+  {
+    id: "building-a-stock-market-plan",
+    courseId: "stocks",
+    title: "Building a Stock Market Plan",
+    description:
+      "Create a structured framework for analyzing and trading stocks.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "A stock market plan defines the rules and process you will use when evaluating and managing investments or trades.",
+      },
+      {
+        type: "heading",
+        text: "What Should Your Plan Include?",
+      },
+      {
+        type: "list",
+        items: [
+          "Markets and stocks you focus on.",
+          "Investment or trading timeframe.",
+          "Entry criteria.",
+          "Exit criteria.",
+          "Risk limits.",
+          "Position-sizing rules.",
+          "Conditions for staying out of the market.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Consistency",
+      },
+      {
+        type: "paragraph",
+        text:
+          "A clear plan creates a repeatable decision-making process and reduces the tendency to make impulsive decisions.",
+      },
+    ],
+  },
+
+  {
+    id: "putting-it-all-together",
+    courseId: "stocks",
+    title: "Putting It All Together",
+    description:
+      "Combine the core concepts into a practical market framework.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "You now have a foundation for understanding stocks, analyzing companies and price behaviour, managing risk, and developing a structured approach to the market.",
+      },
+      {
+        type: "heading",
+        text: "1. Understand the Business",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Understand what the company does, how it generates revenue, and the factors that may influence its future performance.",
+      },
+      {
+        type: "heading",
+        text: "2. Analyze the Market",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Use fundamental and technical information to build a broader understanding of the opportunity.",
+      },
+      {
+        type: "heading",
+        text: "3. Manage Risk",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Determine how much capital you are willing to expose and avoid taking unnecessary levels of risk.",
+      },
+      {
+        type: "heading",
+        text: "4. Follow Your Plan",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Use predefined criteria for entering, managing, and exiting positions.",
+      },
+      {
+        type: "heading",
+        text: "5. Review and Improve",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Review your decisions and results regularly so you can identify strengths and areas for improvement.",
+      },
+    ],
+  },
 ];
