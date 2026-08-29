@@ -1529,4 +1529,448 @@ export const lessons: Lesson[] = [
       },
     ],
   },
+  // ============================================================
+  // FINANCE — 9 LESSONS
+  // ============================================================
+
+  {
+    id: "introduction-to-financial-markets",
+    courseId: "finance",
+    title: "Introduction to Financial Markets",
+    description:
+      "Understand the purpose and structure of global financial markets.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Financial markets are systems where participants buy and sell financial assets such as stocks, bonds, currencies, and other instruments. They help connect people and institutions that have capital with those that need it.",
+      },
+      {
+        type: "heading",
+        text: "What Are Financial Markets?",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Financial markets provide a mechanism for assets and capital to be exchanged. They also help markets discover prices based on supply, demand, information, and expectations.",
+      },
+      {
+        type: "heading",
+        text: "Major Financial Markets",
+      },
+      {
+        type: "list",
+        items: [
+          "Foreign exchange markets",
+          "Stock markets",
+          "Bond markets",
+          "Commodity markets",
+          "Cryptocurrency markets",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Why Financial Markets Matter",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Financial markets play an important role in the global economy by helping businesses raise capital, governments finance activities, and investors allocate their money.",
+      },
+    ],
+  },
+
+  {
+    id: "market-participants",
+    courseId: "finance",
+    title: "Market Participants",
+    description:
+      "Learn about banks, institutions, governments, businesses, and individual traders.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Financial markets contain many different participants. Each participant may have different objectives, resources, and time horizons.",
+      },
+      {
+        type: "heading",
+        text: "Banks and Financial Institutions",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Banks and financial institutions participate in markets for activities such as lending, investing, hedging, market making, and managing client transactions.",
+      },
+      {
+        type: "heading",
+        text: "Institutional Investors",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Institutional investors manage large pools of capital on behalf of organizations or clients. Examples include pension funds, asset managers, and insurance companies.",
+      },
+      {
+        type: "heading",
+        text: "Governments and Central Banks",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Governments and central banks can influence financial markets through fiscal policy, monetary policy, regulation, and other economic decisions.",
+      },
+      {
+        type: "heading",
+        text: "Individual Participants",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Individual investors and traders participate in markets for different reasons, including investing, speculation, income generation, and long-term wealth building.",
+      },
+    ],
+  },
+
+  {
+    id: "interest-rates",
+    courseId: "finance",
+    title: "Interest Rates",
+    description:
+      "Understand why interest rates matter to financial markets.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Interest rates represent the cost of borrowing money or the return earned from lending or saving money. They are an important part of the financial system.",
+      },
+      {
+        type: "heading",
+        text: "Why Interest Rates Matter",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Changes in interest rates can influence borrowing costs, consumer spending, business investment, savings, and the valuation of financial assets.",
+      },
+      {
+        type: "heading",
+        text: "Central Bank Rates",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Central banks use policy interest rates as one of their tools for influencing economic conditions and financial markets.",
+      },
+      {
+        type: "heading",
+        text: "Interest Rates and Markets",
+      },
+      {
+        type: "list",
+        items: [
+          "Higher rates can increase borrowing costs.",
+          "Lower rates can reduce borrowing costs.",
+          "Rate expectations can influence currencies.",
+          "Interest rates can affect bond and stock valuations.",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "inflation-and-economic-growth",
+    courseId: "finance",
+    title: "Inflation & Economic Growth",
+    description:
+      "Explore how inflation and economic growth influence markets.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Inflation refers to a sustained increase in the general level of prices over time. Economic growth refers to an increase in the production of goods and services within an economy.",
+      },
+      {
+        type: "heading",
+        text: "Understanding Inflation",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Moderate inflation can be a normal part of a growing economy, but persistent or unexpectedly high inflation can affect consumers, businesses, interest rates, and financial markets.",
+      },
+      {
+        type: "heading",
+        text: "Economic Growth",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Economic growth is often assessed using measures such as gross domestic product. Stronger growth can influence expectations about corporate earnings, employment, spending, and monetary policy.",
+      },
+      {
+        type: "heading",
+        text: "Why Traders Watch Both",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Markets respond not only to economic data itself but also to how that data compares with expectations and what it may mean for future policy.",
+      },
+    ],
+  },
+
+  {
+    id: "central-banks",
+    courseId: "finance",
+    title: "Central Banks",
+    description:
+      "Understand the role of central banks in the global economy.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Central banks are institutions responsible for important parts of a country's monetary system. Their responsibilities vary by country but commonly include monetary policy and maintaining financial stability.",
+      },
+      {
+        type: "heading",
+        text: "Monetary Policy",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Central banks use monetary policy tools to influence economic and financial conditions. Interest rates are one of the most closely watched tools.",
+      },
+      {
+        type: "heading",
+        text: "Why Central Banks Matter to Traders",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Central bank decisions can change market expectations about interest rates, economic growth, inflation, and currency values.",
+      },
+      {
+        type: "list",
+        items: [
+          "Interest-rate decisions",
+          "Policy statements",
+          "Economic projections",
+          "Central bank speeches",
+          "Balance-sheet policies",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "economic-indicators",
+    courseId: "finance",
+    title: "Economic Indicators",
+    description:
+      "Learn how major economic data can influence market expectations.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Economic indicators provide information about the condition and direction of an economy. Traders and investors monitor them because they can influence expectations about growth, inflation, employment, and monetary policy.",
+      },
+      {
+        type: "heading",
+        text: "Employment Data",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Employment reports can provide insight into labour-market conditions and may influence expectations about economic activity and monetary policy.",
+      },
+      {
+        type: "heading",
+        text: "Inflation Data",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Inflation measures such as consumer price indexes are closely watched because changes in inflation can influence central bank decisions.",
+      },
+      {
+        type: "heading",
+        text: "Economic Growth Data",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Measures of economic growth can help market participants assess the strength or weakness of an economy.",
+      },
+      {
+        type: "list",
+        items: [
+          "Inflation reports",
+          "Employment reports",
+          "GDP data",
+          "Retail sales",
+          "Manufacturing and services data",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "risk-and-money-management",
+    courseId: "finance",
+    title: "Risk & Money Management",
+    description:
+      "Understand the importance of protecting capital across financial markets.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Risk and money management are essential when participating in financial markets. The objective is not to eliminate risk, but to control exposure so that individual losses do not create disproportionate damage.",
+      },
+      {
+        type: "heading",
+        text: "Understand Your Risk",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Before making a financial decision, consider how much capital is being exposed and what could happen if the position or investment moves against you.",
+      },
+      {
+        type: "heading",
+        text: "Position Sizing",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Position size should be appropriate for your capital, risk tolerance, strategy, and the characteristics of the asset being traded or held.",
+      },
+      {
+        type: "heading",
+        text: "Diversification",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Diversification can reduce dependence on a single asset or market, although it cannot completely remove investment risk.",
+      },
+      {
+        type: "list",
+        items: [
+          "Define risk before entering a position.",
+          "Avoid excessive concentration.",
+          "Use appropriate position sizes.",
+          "Understand the risks of each market.",
+          "Review your exposure regularly.",
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "trading-psychology",
+    courseId: "finance",
+    title: "Trading Psychology",
+    description:
+      "Explore the behavioral side of financial decision-making.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Financial decisions are influenced by both information and human behaviour. Emotions and cognitive biases can cause people to make decisions that differ from their original plans.",
+      },
+      {
+        type: "heading",
+        text: "Common Psychological Challenges",
+      },
+      {
+        type: "list",
+        items: [
+          "Fear",
+          "Greed",
+          "Overconfidence",
+          "Loss aversion",
+          "Fear of missing out",
+          "Impatience",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Decision-Making Under Uncertainty",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Financial markets are uncertain. A good decision does not necessarily produce a profitable outcome, and a profitable outcome does not necessarily mean the decision-making process was sound.",
+      },
+      {
+        type: "heading",
+        text: "Developing Discipline",
+      },
+      {
+        type: "paragraph",
+        text:
+          "A structured process, clear rules, realistic expectations, and consistent review can help reduce emotionally driven decisions.",
+      },
+    ],
+  },
+
+  {
+    id: "market-cycles",
+    courseId: "finance",
+    title: "Market Cycles",
+    description:
+      "Learn how markets move through different economic and price cycles.",
+    content: [
+      {
+        type: "paragraph",
+        text:
+          "Markets do not move in a straight line. Economic conditions, investor expectations, liquidity, and sentiment can change over time, producing different market environments.",
+      },
+      {
+        type: "heading",
+        text: "Expansion",
+      },
+      {
+        type: "paragraph",
+        text:
+          "During expansion, economic activity generally increases. Businesses may experience stronger demand and improving conditions.",
+      },
+      {
+        type: "heading",
+        text: "Peak",
+      },
+      {
+        type: "paragraph",
+        text:
+          "A peak represents a period where economic activity or market optimism reaches a high point before conditions begin to change.",
+      },
+      {
+        type: "heading",
+        text: "Contraction",
+      },
+      {
+        type: "paragraph",
+        text:
+          "During contraction, economic activity may weaken, which can influence earnings expectations, employment, spending, and market sentiment.",
+      },
+      {
+        type: "heading",
+        text: "Recovery",
+      },
+      {
+        type: "paragraph",
+        text:
+          "Recovery describes a period in which economic conditions begin improving after a weaker phase.",
+      },
+      {
+        type: "list",
+        items: [
+          "Expansion",
+          "Peak",
+          "Contraction",
+          "Recovery",
+        ],
+      },
+    ],
+  },
 ];
