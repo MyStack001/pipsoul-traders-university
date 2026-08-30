@@ -23,7 +23,7 @@ export const learnMarkets: LearnMarket[] = [
       "Bid, ask & spread",
       "Market sessions",
       "Market structure",
-      "Risk management",
+      "Timeframes",
     ],
     courseId: "forex",
     courseTitle: "Forex Trading Fundamentals",
