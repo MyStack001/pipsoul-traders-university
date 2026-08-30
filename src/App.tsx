@@ -6,6 +6,8 @@ import LessonPage from "./pages/LessonPage";
 import LearnPage from "./pages/LearnPage";
 import LearnMarketPage from "./pages/LearnMarketPage";
 import GlossaryPage from "./pages/GlossaryPage";
+import ResourcesPage from "./pages/ResourcesPage";
+import PositionSizeCalculatorPage from "./pages/PositionSizeCalculatorPage";
 
 function App() {
   return (
@@ -20,6 +22,11 @@ function App() {
 
         <Route path="/courses" element={<CoursesPage />} />
         <Route path="/glossary" element={<GlossaryPage />} />
+        <Route path="/resources" element={<ResourcesPage />} />
+        <Route
+  path="/resources/position-size-calculator"
+  element={<PositionSizeCalculatorPage />}
+/>
 
         <Route path="/courses/:courseId" element={<CoursePage />} />
         
