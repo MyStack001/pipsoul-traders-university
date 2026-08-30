@@ -5,6 +5,7 @@ import CoursePage from "./pages/CoursePage";
 import LessonPage from "./pages/LessonPage";
 import LearnPage from "./pages/LearnPage";
 import LearnMarketPage from "./pages/LearnMarketPage";
+import GlossaryPage from "./pages/GlossaryPage";
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
 />
 
         <Route path="/courses" element={<CoursesPage />} />
+        <Route path="/glossary" element={<GlossaryPage />} />
 
         <Route path="/courses/:courseId" element={<CoursePage />} />
-
+        
         <Route
           path="/courses/:courseId/lessons/:lessonId"
           element={<LessonPage />}
