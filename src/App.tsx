@@ -4,6 +4,7 @@ import CoursesPage from "./pages/CoursesPage";
 import CoursePage from "./pages/CoursePage";
 import LessonPage from "./pages/LessonPage";
 import LearnPage from "./pages/LearnPage";
+import LearnMarketPage from "./pages/LearnMarketPage";
 
 function App() {
   return (
@@ -11,6 +12,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/learn" element={<LearnPage />} />
+        <Route
+  path="/learn/:marketId"
+  element={<LearnMarketPage />}
+/>
 
         <Route path="/courses" element={<CoursesPage />} />
 
