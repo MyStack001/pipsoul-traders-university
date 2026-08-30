@@ -8,6 +8,7 @@ import LearnMarketPage from "./pages/LearnMarketPage";
 import GlossaryPage from "./pages/GlossaryPage";
 import ResourcesPage from "./pages/ResourcesPage";
 import PositionSizeCalculatorPage from "./pages/PositionSizeCalculatorPage";
+import PipCalculatorPage from "./pages/PipCalculatorPage";
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
         <Route
   path="/resources/position-size-calculator"
   element={<PositionSizeCalculatorPage />}
+/>
+<Route
+  path="/resources/pip-calculator"
+  element={<PipCalculatorPage />}
 />
 
         <Route path="/courses/:courseId" element={<CoursePage />} />
