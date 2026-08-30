@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const navLinks = [
-  { label: "Courses", href: "#courses" },
-  { label: "Roadmap", href: "#roadmap" },
-  { label: "Mentorship", href: "#mentorship" },
+  { label: "Learn", href: "/learn" },
+  { label: "Courses", href: "/courses" },
+  { label: "Glossary", href: "/glossary" },
+  { label: "Resources", href: "/resources" },
+  { label: "Mentorship", href: "/mentorship" },
 ];
 
 function Navbar() {
@@ -14,7 +17,11 @@ function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6">
         {/* Brand */}
-        <a href="#" className="group flex min-w-0 items-center gap-2 sm:gap-3">
+        <Link
+          to="/"
+          onClick={() => setMobileOpen(false)}
+          className="group flex min-w-0 items-center gap-2 sm:gap-3"
+        >
           <img
             src="/Logo.png"
             alt="Pipsoul"
@@ -30,29 +37,29 @@ function Navbar() {
               Learn. Trade. Grow.
             </p>
           </div>
-        </a>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.label}
-              href={link.href}
+              to={link.href}
               className="text-sm font-medium text-slate-400 transition hover:text-white"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
         {/* Desktop CTA */}
         <div className="hidden justify-self-end md:block">
-          <a
-            href="#courses"
+          <Link
+            to="/courses"
             className="rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-slate-200"
           >
             Start Learning
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -71,23 +78,23 @@ function Navbar() {
         <div className="border-t border-white/10 bg-slate-950/95 px-6 py-5 backdrop-blur-xl md:hidden">
           <nav className="flex flex-col gap-4">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.label}
-                href={link.href}
+                to={link.href}
                 onClick={() => setMobileOpen(false)}
                 className="rounded-lg px-3 py-2 text-sm font-medium text-slate-300 transition hover:bg-white/5 hover:text-white"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
 
-            <a
-              href="#courses"
+            <Link
+              to="/courses"
               onClick={() => setMobileOpen(false)}
               className="mt-2 rounded-xl bg-white px-5 py-3 text-center text-sm font-semibold text-slate-950"
             >
               Start Learning
-            </a>
+            </Link>
           </nav>
         </div>
       )}

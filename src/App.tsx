@@ -3,12 +3,14 @@ import Home from "./pages/Home";
 import CoursesPage from "./pages/CoursesPage";
 import CoursePage from "./pages/CoursePage";
 import LessonPage from "./pages/LessonPage";
+import LearnPage from "./pages/LearnPage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/learn" element={<LearnPage />} />
 
         <Route path="/courses" element={<CoursesPage />} />
 
