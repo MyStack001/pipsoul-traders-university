@@ -11,6 +11,8 @@ import PositionSizeCalculatorPage from "./pages/PositionSizeCalculatorPage";
 import PipCalculatorPage from "./pages/PipCalculatorPage";
 import MentorshipPage from "./pages/MentorshipPage";
 import DashboardPage from "./pages/DashboardPage";
+import StudentLayout from "./components/student/StudentLayout";
+import MyLearningPage from "./pages/student/MyLearningPage";
 function App() {
   return (
     <BrowserRouter>
@@ -26,7 +28,22 @@ function App() {
         <Route path="/glossary" element={<GlossaryPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/mentorship" element={<MentorshipPage />} />
-        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route
+  path="/dashboard"
+  element={
+    <StudentLayout>
+      <DashboardPage />
+    </StudentLayout>
+  }
+/>
+<Route
+  path="/dashboard/learning"
+  element={
+    <StudentLayout>
+      <MyLearningPage />
+    </StudentLayout>
+  }
+/>
         <Route
   path="/resources/position-size-calculator"
   element={<PositionSizeCalculatorPage />}
