@@ -13,6 +13,8 @@ import MentorshipPage from "./pages/MentorshipPage";
 import DashboardPage from "./pages/DashboardPage";
 import StudentLayout from "./components/student/StudentLayout";
 import MyLearningPage from "./pages/student/MyLearningPage";
+import StudentCoursesPage from "./pages/student/StudentCoursesPage";
+import QuizzesPage from "./pages/student/QuizzesPage";
 function App() {
   return (
     <BrowserRouter>
@@ -44,6 +46,24 @@ function App() {
     </StudentLayout>
   }
 />
+<Route
+  path="/dashboard/courses"
+  element={
+    <StudentLayout>
+      <StudentCoursesPage />
+    </StudentLayout>
+  }
+/>
+
+<Route
+  path="/dashboard/quizzes"
+  element={
+    <StudentLayout>
+      <QuizzesPage />
+    </StudentLayout>
+  }
+/>
+
         <Route
   path="/resources/position-size-calculator"
   element={<PositionSizeCalculatorPage />}
