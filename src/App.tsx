@@ -16,6 +16,7 @@ import MyLearningPage from "./pages/student/MyLearningPage";
 import StudentCoursesPage from "./pages/student/StudentCoursesPage";
 import QuizzesPage from "./pages/student/QuizzesPage";
 import AchievementsPage from "./pages/student/AchievementsPage";
+import BookmarksPage from "./pages/student/BookmarksPage";
 function App() {
   return (
     <BrowserRouter>
@@ -70,6 +71,15 @@ function App() {
   element={
     <StudentLayout>
       <AchievementsPage />
+    </StudentLayout>
+  }
+/>
+
+<Route
+  path="/dashboard/bookmarks"
+  element={
+    <StudentLayout>
+      <BookmarksPage />
     </StudentLayout>
   }
 />
