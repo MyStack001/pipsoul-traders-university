@@ -9,6 +9,7 @@ import GlossaryPage from "./pages/GlossaryPage";
 import ResourcesPage from "./pages/ResourcesPage";
 import PositionSizeCalculatorPage from "./pages/PositionSizeCalculatorPage";
 import PipCalculatorPage from "./pages/PipCalculatorPage";
+import MentorshipPage from "./pages/MentorshipPage";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
   path="/resources/pip-calculator"
   element={<PipCalculatorPage />}
 />
+<Route path="/mentorship" element={<MentorshipPage />} />
 
         <Route path="/courses/:courseId" element={<CoursePage />} />
         
