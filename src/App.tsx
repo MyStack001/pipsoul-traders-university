@@ -20,6 +20,7 @@ import BookmarksPage from "./pages/student/BookmarksPage";
 import StudentGlossaryPage from "./pages/student/StudentGlossaryPage";
 import StudentResourcesPage from "./pages/student/StudentResourcesPage";
 import StudentMentorshipPage from "./pages/student/StudentMentorshipPage";
+import StudentSettingsPage from "./pages/student/StudentSettingsPage";
 function App() {
   return (
     <BrowserRouter>
@@ -110,6 +111,15 @@ function App() {
   element={
     <StudentLayout>
       <StudentMentorshipPage />
+    </StudentLayout>
+  }
+/>
+
+<Route
+  path="/dashboard/settings"
+  element={
+    <StudentLayout>
+      <StudentSettingsPage />
     </StudentLayout>
   }
 />
