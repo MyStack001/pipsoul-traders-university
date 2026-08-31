@@ -19,6 +19,7 @@ import AchievementsPage from "./pages/student/AchievementsPage";
 import BookmarksPage from "./pages/student/BookmarksPage";
 import StudentGlossaryPage from "./pages/student/StudentGlossaryPage";
 import StudentResourcesPage from "./pages/student/StudentResourcesPage";
+import StudentMentorshipPage from "./pages/student/StudentMentorshipPage";
 function App() {
   return (
     <BrowserRouter>
@@ -103,6 +104,16 @@ function App() {
     </StudentLayout>
   }
 />
+
+<Route
+  path="/dashboard/mentorship"
+  element={
+    <StudentLayout>
+      <StudentMentorshipPage />
+    </StudentLayout>
+  }
+/>
+
         <Route
   path="/resources/position-size-calculator"
   element={<PositionSizeCalculatorPage />}
