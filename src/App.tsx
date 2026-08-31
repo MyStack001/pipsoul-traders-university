@@ -17,6 +17,7 @@ import StudentCoursesPage from "./pages/student/StudentCoursesPage";
 import QuizzesPage from "./pages/student/QuizzesPage";
 import AchievementsPage from "./pages/student/AchievementsPage";
 import BookmarksPage from "./pages/student/BookmarksPage";
+import StudentGlossaryPage from "./pages/student/StudentGlossaryPage";
 function App() {
   return (
     <BrowserRouter>
@@ -84,6 +85,14 @@ function App() {
   }
 />
 
+<Route
+  path="/dashboard/glossary"
+  element={
+    <StudentLayout>
+      <StudentGlossaryPage />
+    </StudentLayout>
+  }
+/>
         <Route
   path="/resources/position-size-calculator"
   element={<PositionSizeCalculatorPage />}
