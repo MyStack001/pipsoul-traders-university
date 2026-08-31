@@ -18,6 +18,7 @@ import QuizzesPage from "./pages/student/QuizzesPage";
 import AchievementsPage from "./pages/student/AchievementsPage";
 import BookmarksPage from "./pages/student/BookmarksPage";
 import StudentGlossaryPage from "./pages/student/StudentGlossaryPage";
+import StudentResourcesPage from "./pages/student/StudentResourcesPage";
 function App() {
   return (
     <BrowserRouter>
@@ -90,6 +91,15 @@ function App() {
   element={
     <StudentLayout>
       <StudentGlossaryPage />
+    </StudentLayout>
+  }
+/>
+
+<Route
+  path="/dashboard/resources"
+  element={
+    <StudentLayout>
+      <StudentResourcesPage />
     </StudentLayout>
   }
 />
