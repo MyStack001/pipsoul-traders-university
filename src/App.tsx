@@ -10,7 +10,7 @@ import ResourcesPage from "./pages/ResourcesPage";
 import PositionSizeCalculatorPage from "./pages/PositionSizeCalculatorPage";
 import PipCalculatorPage from "./pages/PipCalculatorPage";
 import MentorshipPage from "./pages/MentorshipPage";
-
+import DashboardPage from "./pages/DashboardPage";
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +25,8 @@ function App() {
         <Route path="/courses" element={<CoursesPage />} />
         <Route path="/glossary" element={<GlossaryPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
+        <Route path="/mentorship" element={<MentorshipPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
         <Route
   path="/resources/position-size-calculator"
   element={<PositionSizeCalculatorPage />}
@@ -33,8 +35,6 @@ function App() {
   path="/resources/pip-calculator"
   element={<PipCalculatorPage />}
 />
-<Route path="/mentorship" element={<MentorshipPage />} />
-
         <Route path="/courses/:courseId" element={<CoursePage />} />
         
         <Route
