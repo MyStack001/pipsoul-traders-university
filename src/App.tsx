@@ -15,6 +15,7 @@ import StudentLayout from "./components/student/StudentLayout";
 import MyLearningPage from "./pages/student/MyLearningPage";
 import StudentCoursesPage from "./pages/student/StudentCoursesPage";
 import QuizzesPage from "./pages/student/QuizzesPage";
+import AchievementsPage from "./pages/student/AchievementsPage";
 function App() {
   return (
     <BrowserRouter>
@@ -60,6 +61,15 @@ function App() {
   element={
     <StudentLayout>
       <QuizzesPage />
+    </StudentLayout>
+  }
+/>
+
+<Route
+  path="/dashboard/achievements"
+  element={
+    <StudentLayout>
+      <AchievementsPage />
     </StudentLayout>
   }
 />
