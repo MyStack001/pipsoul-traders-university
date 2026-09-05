@@ -21,8 +21,10 @@ import StudentGlossaryPage from "./pages/student/StudentGlossaryPage";
 import StudentResourcesPage from "./pages/student/StudentResourcesPage";
 import StudentMentorshipPage from "./pages/student/StudentMentorshipPage";
 import StudentSettingsPage from "./pages/student/StudentSettingsPage";
+
+
 function App() {
-  return (
+  return (    
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -36,6 +38,7 @@ function App() {
         <Route path="/glossary" element={<GlossaryPage />} />
         <Route path="/resources" element={<ResourcesPage />} />
         <Route path="/mentorship" element={<MentorshipPage />} />
+        
         <Route
   path="/dashboard"
   element={
