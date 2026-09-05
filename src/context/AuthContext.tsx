@@ -12,6 +12,7 @@ type AuthContextType = {
   user: User | null;
   session: Session | null;
   loading: boolean;
+  signOut: () => Promise<void>;
 };
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -50,8 +51,12 @@ export function AuthProvider({ children }: AuthProviderProps) {
     };
   }, []);
 
+  const signOut = async () => {
+  await supabase.auth.signOut();
+};
+
   return (
-    <AuthContext.Provider value={{ user, session, loading }}>
+    <AuthContext.Provider value={{ user, session, loading, signOut }}>
       {children}
     </AuthContext.Provider>
   );

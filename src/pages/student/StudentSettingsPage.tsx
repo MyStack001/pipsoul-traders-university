@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import {
   User,
   Bell,
@@ -6,8 +7,17 @@ import {
   Shield,
   LogOut,
 } from "lucide-react";
+import { useAuth } from "../../context/AuthContext";
 
 function StudentSettingsPage() {
+  const navigate = useNavigate();
+  const { signOut } = useAuth();
+
+  const handleSignOut = async () => {
+    await signOut();
+    navigate("/login");
+  };
+
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       <div className="mx-auto max-w-5xl px-6 py-10 sm:px-8 lg:px-10">
@@ -325,6 +335,7 @@ function StudentSettingsPage() {
 
               <button
                 type="button"
+                onClick={handleSignOut}
                 className="inline-flex items-center justify-center gap-2 rounded-xl border border-red-400/20 bg-red-400/10 px-4 py-2.5 text-sm font-medium text-red-400 transition hover:bg-red-400/15"
               >
                 <LogOut size={15} />
