@@ -21,10 +21,13 @@ import StudentGlossaryPage from "./pages/student/StudentGlossaryPage";
 import StudentResourcesPage from "./pages/student/StudentResourcesPage";
 import StudentMentorshipPage from "./pages/student/StudentMentorshipPage";
 import StudentSettingsPage from "./pages/student/StudentSettingsPage";
-
+import { AuthProvider } from "./context/AuthContext";
+import LoginPage from "./pages/LoginPage";
+import SignupPage from "./pages/SignupPage";
 
 function App() {
-  return (    
+  return (  
+    <AuthProvider> 
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -127,6 +130,9 @@ function App() {
   }
 />
 
+<Route path="/login" element={<LoginPage />} />
+<Route path="/signup" element={<SignupPage />} />
+
         <Route
   path="/resources/position-size-calculator"
   element={<PositionSizeCalculatorPage />}
@@ -143,6 +149,7 @@ function App() {
         />
       </Routes>
     </BrowserRouter>
+    </AuthProvider>
   );
 }
 
